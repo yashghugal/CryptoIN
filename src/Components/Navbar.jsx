@@ -31,9 +31,9 @@ const Navbar = () => {
   }
   return (
     <div className='font-pop flex items-center justify-between py-5 px-3 md:px-5 text-slate-100 shadow bg-violet-900'>
-        <NavLink to='/'><img className='h-6 md:h-8 ' src={logo} alt="dfg" /></NavLink>
+        <NavLink to='/CryptoIN'><img className='h-6 md:h-8 ' src={logo} alt="dfg" /></NavLink>
         <ul className='hidden md:flex md:gap-7 lg:gap-10 text-base font-medium lg:text-lg'>
-           <Link to='/'><li>Home</li></Link>
+           <Link to='/CryptoIN'><li>Home</li></Link>
             <li>Features</li>             
             <NavLink to='/pricing'><li className=''>Pricing</li></NavLink> 
             <li>Blog</li>

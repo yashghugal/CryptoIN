@@ -9,7 +9,7 @@ import Pricing from "./Pages/Pricing.jsx"
 function App() {
   const router = createBrowserRouter([
     {
-      path:'/CryptoIN',
+      path:'/',
       element:<><Layout><Home/></Layout></>
     },
     {
